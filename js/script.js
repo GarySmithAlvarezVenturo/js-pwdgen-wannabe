@@ -6,10 +6,11 @@
 */
 alert("Compila tutto grazie!")
 
-var nome = window.prompt("Inserisci il tuo nome");
-var cognome = window.prompt("Inserisci il tuo cognome");
-var colorePreferito = window.prompt("Inserisci il tuo colore preferito")
+var name = window.prompt("Inserisci il tuo nome");
+var surname = window.prompt("Inserisci il tuo cognome");
+var favoritecolor = window.prompt("Inserisci il tuo colore preferito")
 
-document.getElementById("Dati").innerHTML="Benvenuto " +nome +cognome +colorePreferito;
+document.getElementById("Dati").innerHTML="Benvenuto " +name +surname +favoritecolor;
+
 
     
