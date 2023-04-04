@@ -10,7 +10,7 @@ var name = window.prompt("Inserisci il tuo nome");
 var surname = window.prompt("Inserisci il tuo cognome");
 var favoritecolor = window.prompt("Inserisci il tuo colore preferito")
 
-document.getElementById("Dati").innerHTML="Benvenuto " +name +surname +favoritecolor;
+document.getElementById("Dati").innerHTML="Benvenuto " +name +surname +favoritecolor + 23;
 
 
     
