@@ -6,11 +6,13 @@
 */
 alert("Compila tutto grazie!")
 
-var name = window.prompt("Inserisci il tuo nome");
-var surname = window.prompt("Inserisci il tuo cognome");
-var favoritecolor = window.prompt("Inserisci il tuo colore preferito")
+const firstname = window.prompt("Inserisci il tuo nome");
+const surname = window.prompt("Inserisci il tuo cognome");
+const favoritecolor = window.prompt("Inserisci il tuo colore preferito")
 
-document.getElementById("Dati").innerHTML="Benvenuto " +name +surname +favoritecolor + 23;
+const password = firstname + surname + favoritecolor + 23;
+
+document.getElementById("password").innerHTML=password;
 
 
     
